@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static',     filename='css/style.css') }}">
+  <title>Home</title>
+</head>
+<header>
+  <img src="{{ url_for('static',     filename='img/logo.png') }}" alt="logo" id="logo">
+  <ul class="menu">
+    <a href="/"><li>Home</li></a>
+    <li>|</li>
+    <a href="/sobre"><li>Quem somos</li></a>
+    <li>|</li>
+    <a href="/contato"><li>Contato</li></a>
+  </ul>
+</header>
+<body background="{{ url_for('static',     filename='img/fundo.png') }}">
+  <img src="{{ url_for('static',     filename='img/capa.png') }}" alt="capa" id="capa">
+  <section>
+    <h1>Sobre a universidade</h1>
+    <p>Lorem <b>ipsum dolor</b> sit amet, consectetur adipisicing elit. Odio corporis necessitatibus, deserunt saepe id vitae libero ea quasi veritatis repellendus voluptates quia autem minus rerum impedit, quas animi est. Distinctio. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe est voluptate voluptatum. Dicta pariatur eum minus amet sit, vel cupiditate eaque reiciendis eos enim, veritatis iusto provident, distinctio eligendi fugiat.</p>
+    <p>Lorem <b>ipsum dolor</b> sit amet consectetur adipisicing elit. Error consequuntur non odio? Aut sit facilis nobis totam doloribus soluta aliquam quas eum molestiae! Nihil iusto harum, sequi culpa impedit incidunt! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos modi velit illum fuga quo excepturi voluptatibus neque commodi, quisquam architecto exercitationem delectus quis cumque quaerat quas perferendis sint, aut explicabo!</p>
+    <h5>Todos os direitos reservados</h5>
+  </section>
+</body>
+</html>
